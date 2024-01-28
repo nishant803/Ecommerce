@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <div>
-        <div className="bg-black w-full h-[70px] flex flex-col justify-center items-center">
+        <div className="bg-black w-full h-[70px] flex flex-col justify-center items-center sticky top-0 mt-0">
             <div className='w-full h-[60%]  flex items-center justify-evenly'>
                 <ul><i className='text-white text-3xl'>xyz<span className='text-xl'>.Com</span></i></ul>
                 <ul className='h-[79%] w-[23%] bg-white rounded-md'>
